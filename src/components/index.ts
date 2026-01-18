@@ -1,0 +1,9 @@
+export { Navigation } from './Navigation';
+export { Hero } from './Hero';
+export { HowItWorks } from './HowItWorks';
+export { Features } from './Features';
+export { UseCases } from './UseCases';
+export { SafetyPrivacy } from './SafetyPrivacy';
+export { KnowYourRights } from './KnowYourRights';
+export { Community } from './Community';
+export { Footer } from './Footer';
