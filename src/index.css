@@ -4,11 +4,13 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply antialiased bg-white;
     margin: 0;
+    overflow-x: hidden;
   }
 }
 
