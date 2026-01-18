@@ -17,7 +17,7 @@ export function Navigation() {
       <div className="section-container">
         <div className="flex items-center justify-between h-16 gap-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2 min-w-0">
+          <a href="/" className="flex items-center gap-2 min-w-0">
             <Radio className="w-8 h-8 text-amber-500 flex-shrink-0" />
             <span className="text-xl font-bold text-white truncate">PresenceProtocol</span>
           </a>
