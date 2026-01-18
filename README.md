@@ -1,5 +1,7 @@
 # PresenceProtocol
 
+[![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/PatNeedham/PresenceProtocol?utm_source=oss&utm_medium=github&utm_campaign=PatNeedham%2FPresenceProtocol&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)](https://coderabbit.ai)
+
 Real-time safety networks for constitutional rights activists.
 
 ## About

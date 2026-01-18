@@ -15,11 +15,11 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900/95 backdrop-blur-sm border-b border-slate-800">
       <div className="section-container">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-16 gap-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <Radio className="w-8 h-8 text-amber-500" />
-            <span className="text-xl font-bold text-white">PresenceProtocol</span>
+          <a href="/" className="flex items-center gap-2 min-w-0">
+            <Radio className="w-8 h-8 text-amber-500 flex-shrink-0" />
+            <span className="text-xl font-bold text-white truncate">PresenceProtocol</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -43,7 +43,7 @@ export function Navigation() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-slate-300 hover:text-white"
+            className="md:hidden text-slate-300 hover:text-white flex-shrink-0"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
